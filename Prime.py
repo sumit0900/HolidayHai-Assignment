@@ -10,7 +10,7 @@ def getAllPrime(n):
     p = 2
     #### traverse loop upto squareroot of number n.
     while (p * p <= n):
-        if (primeList[p] == True):
+        if (primeList[p] == False):
             demo = p * 2
             ##mark all no. to non prime which are multiple of current number. Current no. will be prime
             for i in range(demo, n+1, p):
