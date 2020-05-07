@@ -26,7 +26,7 @@ def passwordCheck(password):
     finalError = lengthError - totalError
     #checks error. If total error is less than or equal to length error
     #then minimum error is length error other wise finalError.
-    if finalError < 0:
+    if finalError < 1:
         return -1 * finalError
     else:
         return lengthError
