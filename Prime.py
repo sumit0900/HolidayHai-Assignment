@@ -2,7 +2,7 @@
 ####function to get all prime 
 ################################
 
-
+#remote changes
 def getAllPrime(n):
     primeList = False
     for i in range(0,n+1):
