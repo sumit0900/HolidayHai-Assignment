@@ -4,7 +4,7 @@
 
 
 def getAllPrime(n):
-    primeList = []
+    primeList = False
     for i in range(0,n+1):
         primeList.append(True)
     p = 2
